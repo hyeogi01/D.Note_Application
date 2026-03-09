@@ -104,30 +104,30 @@ npm run build
 ## 프로젝트 구조
 
 \`\`\`
-src/
-├── components/         # 재사용 가능한 컴포넌트
-│   ├── AlertModal.jsx
-│   ├── ConfirmModal.jsx
-│   ├── PromptModal.jsx
-│   ├── CreateNoteModal.jsx
-│   ├── Layout.jsx
-│   ├── LoginModal.jsx
-│   └── ProtectedRoute.jsx
-├── pages/              # 페이지 컴포넌트
-│   ├── CalendarPage.jsx
-│   ├── NotePage.jsx
-│   ├── NoteListPage.jsx
-│   ├── TeamSpacePage.jsx
-│   └── SignUpPage.jsx
-├── context/            # React Context
-│   └── AuthContext.jsx
-├── utils/              # 유틸리티 함수
-│   └── storage.js      # Firebase & 로컬 스토리지 관리
-├── styles/             # 전역 스타일
-│   ├── GlobalStyle.jsx
-│   └── theme.js
-└── firebase.js         # Firebase 초기화
-\`\`\`
+src/  
+├── components/         # 재사용 가능한 컴포넌트  
+│   ├── AlertModal.jsx  
+│   ├── ConfirmModal.jsx  
+│   ├── PromptModal.jsx  
+│   ├── CreateNoteModal.jsx  
+│   ├── Layout.jsx   
+│   ├── LoginModal.jsx  
+│   └── ProtectedRoute.jsx  
+├── pages/              # 페이지 컴포넌트  
+│   ├── CalendarPage.jsx  
+│   ├── NotePage.jsx  
+│   ├── NoteListPage.jsx  
+│   ├── TeamSpacePage.jsx  
+│   └── SignUpPage.jsx  
+├── context/            # React Context  
+│   └── AuthContext.jsx  
+├── utils/              # 유틸리티 함수  
+│   └── storage.js      # Firebase & 로컬 스토리지 관리  
+├── styles/             # 전역 스타일  
+│   ├── GlobalStyle.jsx  
+│   └── theme.js  
+└── firebase.js         # Firebase 초기화  
+\`\`\`  
 
 ## 주요 페이지
 
